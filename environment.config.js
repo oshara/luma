@@ -1,0 +1,1 @@
+export const lumoURL = "https://magento.softwaretestingboard.com/"
