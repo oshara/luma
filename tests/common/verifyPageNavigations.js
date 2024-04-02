@@ -38,13 +38,16 @@ test('Navigating to Womens - Tops - Hoodies section',async({page})=>{
     await MenusObj.navigatingToHoddiesPage();
 })
 
-test.only('Navigating to the Womens - Tops - Tees section',async({page})=>{
+test('Navigating to the Womens - Tops - Tees section',async({page})=>{
     const MenusObj = new NavigationMenuPage(page);
     await MenusObj.navigatingToTeesPage();
-    await page.pause();
+ 
 })
 
 test("Navigation to Womens - Tops - Tanks section",async({page})=>{
-
+    const MenusObj = new NavigationMenuPage(page);
+    await MenusObj.navigatingToTanksPage();
 })
+
+
 }
